@@ -1,0 +1,25 @@
+
+.suggestions-list {
+    display: block; 
+    max-width: 500px; 
+    width: 100%; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    margin-top: 8px; 
+    background-color: white; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    max-height: 400px; 
+    overflow-y: auto; 
+  }
+  
+  .suggestion-item {
+    padding: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  
